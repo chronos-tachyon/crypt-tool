@@ -9,7 +9,7 @@ Usage: crypt-tool [<prefix> [<rounds>]]
 
 Example command line session:
 
-	$ crypt '$2b' 12
+	$ crypt '$2b$' 12
 	Password: <password is typed, followed by Enter>
 	Hash: $2b$12$Z0vgnP2jil4YioUAGsDwa.nIkRS.we6hBNHyy4WutXlPT3V5D/ktO
 	Password: <Enter is pressed immediately>

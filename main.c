@@ -20,7 +20,7 @@ static const char* const USAGE =
   "\n"
   "Example command line session:\n"
   "\n"
-  "\t$ crypt '$2b' 12\n"
+  "\t$ crypt '$2b$' 12\n"
   "\tPassword: <password is typed, followed by Enter>\n"
   "\tHash: $2b$12$Z0vgnP2jil4YioUAGsDwa.nIkRS.we6hBNHyy4WutXlPT3V5D/ktO\n"
   "\tPassword: <Enter is pressed immediately>\n"
