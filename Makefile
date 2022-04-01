@@ -5,9 +5,12 @@ CFLAGS ?= -std=gnu11 -Os -Wall -Werror -fPIE
 CPPFLAGS ?= -DPIE
 LIBS = -lcrypt
 
-.PHONY: all
+.PHONY: all clean
 
-all: crypt
+all: crypt-tool
 
-crypt: main.c Makefile
+clean:
+	rm -f crypt-tool
+
+crypt-tool: main.c Makefile
 	$(CC) $(CFLAGS) $(CPPFLAGS) -o "$@" "$<" $(LIBS)

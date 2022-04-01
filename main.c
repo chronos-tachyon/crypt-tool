@@ -16,7 +16,7 @@
 
 static const char* const USAGE =
   "Hashes one or more passwords from the terminal or stdin.\n"
-  "Usage: crypt [<prefix> [<rounds>]]\n"
+  "Usage: crypt-tool [<prefix> [<rounds>]]\n"
   "\n"
   "Example command line session:\n"
   "\n"
